@@ -1,11 +1,11 @@
 import Home from "./Pages/Home/"
-import { Provider } from 'react-redux'
-import store from "./store/storeConfig";
+import GlobalStyles from "./styles/global"
 
 function App() {
   return (
       <div className="App">
         <Home/>
+        <GlobalStyles/>
       </div>
   );
 }
